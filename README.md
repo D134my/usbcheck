@@ -10,3 +10,8 @@ cd usbcheck && cmake -Bbuild -H. && cd build && make
 ```
 sudo make install
 ```
+## dependency
+1. dunst [^1]
+
+
+[^1]: https://github.com/dunst-project/dunst
