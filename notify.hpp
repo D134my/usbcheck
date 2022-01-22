@@ -7,7 +7,6 @@
 #include <iostream>
 #include <regex>
 #include <thread>
-#include <unordered_map>
 #include <vector>
 
 namespace fs = std::filesystem;
