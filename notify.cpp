@@ -1,7 +1,7 @@
 #include "notify.hpp"
 #include <ranges>
 
-notify::notify() { std::cout << "Thank you for using usbcheck \n"; }
+notify::notify() { std::cout << "Thank you for using usbcheck\n"; }
 
 void notify::start() { // add existing files into vector
   for (auto const &file : fs::recursive_directory_iterator(path_To_Watch)) {

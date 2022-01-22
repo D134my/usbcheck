@@ -13,8 +13,6 @@ namespace fs = std::filesystem;
 namespace chrono = std::chrono;
 using namespace std::chrono_literals;
 
-void lipincott();
-
 class notify {
 public:
   void start();
