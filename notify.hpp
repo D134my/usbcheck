@@ -6,7 +6,6 @@
 #include <filesystem>
 #include <iostream>
 #include <regex>
-#include <thread>
 #include <vector>
 
 namespace fs = std::filesystem;
@@ -28,7 +27,6 @@ public:
 
 private:
   std::regex const re{R"(sd.\d?)"};
-  constexpr static const inline chrono::seconds time_To_Watch = 2s;
   static const inline std::string path_To_Watch{"/dev/"};
   std::vector<std::string> files;
   std::vector<std::string> result_Files;

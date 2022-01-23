@@ -30,7 +30,6 @@ void notify::check_Add() {
         result_Files.push_back(std::string(file.path().filename()));
       }
       check_Eject();
-      //  std::this_thread::sleep_for(time_To_Watch);
     }
   }
 }
