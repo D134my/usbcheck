@@ -4,11 +4,11 @@ void lippincott() {
   try {
     throw;
   } catch (std::runtime_error const &error) {
-    std::cerr << "runtime error \n";
+    std::cerr << "runtime error !! " << error.what() << '\n';
   } catch (std::exception const &error) {
-    std::cerr << "error !! : " << error.what() << '\n';
+    std::cerr << "exception error !! : " << error.what() << '\n';
   } catch (...) {
-    std::cerr << "unknown error\n";
+    std::cerr << "unknown error !!\n";
   }
 }
 
