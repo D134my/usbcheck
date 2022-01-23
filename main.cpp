@@ -4,7 +4,7 @@ void lippincott() {
   try {
     throw;
   } catch (std::runtime_error const &error) {
-    std::cerr << "runtime happend error \n";
+    std::cerr << "runtime error \n";
   } catch (std::exception const &error) {
     std::cerr << "error !! : " << error.what() << '\n';
   } catch (...) {
